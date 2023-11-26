@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- custom_list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:text="Time Limit (minutes)"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/userAccessTime"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:hint="Enter the time limit in minutes"
+        android:digits="0123456789"
+        />
+
+    <Button
+        android:id="@+id/assignFileButton"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="Assign"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

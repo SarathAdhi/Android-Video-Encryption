@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowSharedVideoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/videoUuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp" />
+
+        <TextView
+            android:id="@+id/videoEncryptedKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp" />
+
+
+        <Button
+            android:id="@+id/showDecryptKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Decryption Key" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp" />
+
+        <Button
+            android:id="@+id/downloadEncryptedTextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Encrypted File" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Download the above Encrypted file to get the Decrypted file." />
+
+        <Button
+            android:id="@+id/downloadDecryptedVideoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Video" />
+
+    </LinearLayout>
+
+</FrameLayout>
